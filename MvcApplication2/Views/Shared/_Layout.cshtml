@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "_Layout";
+
+}
+<nav id="menu">
+    <ul>
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Help", "Help", "Home")</li>
+
+    </ul>
+
+</nav>
+<div>
+    @RenderBody();
+</div>
+

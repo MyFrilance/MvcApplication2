@@ -1,0 +1,34 @@
+﻿#main {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #C5DAF6;
+    /*enable-background: #91BDCF;*/
+}
+#menu {
+
+    width: auto;
+    height: 50px;
+    text-align: center;
+    background-color: #91BDCF;
+}
+body {
+    background-color: #F98D1F;
+}
+a {
+    text-decoration: none;
+}
+#menu ul li {
+    display: inline;
+}
+ul {
+    -webkit-padding-start: 0px;
+}
+#botton {
+    text-align: center;
+
+}
+#FirstSim {
+    font-size: 22px;
+    color: red;
+}
+
